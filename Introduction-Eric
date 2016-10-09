@@ -1,0 +1,113 @@
+\documentclass[10pt]{article}
+\usepackage[german]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{a4}
+\usepackage[left=3cm,right=3cm,top=1cm,bottom=2cm, includehead]{geometry}
+\usepackage[font=footnotesize]{caption}
+\usepackage{setspace}
+\usepackage{threeparttable}
+\usepackage{fancyhdr}
+\usepackage{floatrow}
+\usepackage[outercaption]{sidecap}    
+\usepackage{ghsystem}
+\renewcommand{\thefootnote}{\roman{footnote}}
+\usepackage{url} 
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{mathptmx}
+\usepackage{multicol}
+\usepackage[labelfont=bf]{caption}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily}
+
+
+
+%HAUPTDOKUMENT
+\begin{document}
+\selectlanguage{german}
+\setlength{\parindent}{0pt}
+
+
+%TITELBLATT
+\begin{titlepage}
+
+	\thispagestyle{empty}
+	
+	
+	\noindent ETH Z\"urich \\
+	\noindent Fall semester 2016 \\[2cm]
+
+	\begin{center}
+	{\LARGE  Laboratory Course In Chemical Engineering  }\\
+	\end{center}
+	\begin{center}
+	{\large Department For Chemistry And Applied Biosciences     }\\[1 cm]
+	\end{center}
+	
+		\begin{center}
+		\begingroup
+	{\LARGE \textbf{Investigation of Microdroplet Formation And Stability  }} \\
+	Authors: Eric Walter, Dominik Schiemann and Tobias Seidler \\
+	\noindent Assistants: Josep Luis Puigmarti \\
+	\endgroup
+	\end{center}
+
+\hspace{3cm}
+
+	
+
+	
+	\noindent \textbf{Abstract}:    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   \\
+	
+	\vfill
+	
+	\noindent Z\"urich, \today  \\[2cm]
+Eric Walter \hfill Dominik Schiemann \hfill Tobias Seidler\\
+\texttt{ewalter@student.ethz.ch} \hfill \texttt{dominsch@student.ethz.ch} \hfill \texttt{tseidler@student.ethz.ch}
+
+	
+
+	
+	
+	
+\end{titlepage}
+
+
+
+
+
+
+
+\section*{Introduction}
+
+Fluid dynamics is an important topic for every chemical engineer or other scientists but with the evolved knowledge and application of chemical reactions in biological cells for instance, a new sub discipline of fluid mechanics gained growing attention, called microfluidics. This field describes the behaviour of fluids on a small space. On this scale, several forces such as the friction become more important than on a macroscopic scale and gravity loses significance, which results in a completely different behaviour of the fluids. One way to analyse the behaviour of microfluidics, is the generation of microdroplets in a liquid phase. By observing the size of the microdroplets, the stability of the droplet can be determined. Since two microdroplets have an overall larger surface than if the droplets join up, the droplets tend to get bigger because of the lower surface tension. This phenomena is known as \textit{coalescence}.\\
+In order to generate microdroplets, microfluidic channels are used, in which a constant stream of a solvent comes upon a slow stream of the observed microfluid as shown in figure (1).\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{junction.png}
+	\caption{\textit{Schematic setup$^1$ of a T-junction for the generation of microdroplets.}}
+\end{figure}
+
+In this work, the influence of different flow rates and the surface tension of the solvent itself on the formation of the microdroplets as well as their stability was analysed.
+	
+\section*{Methodics}
+
+
+\section*{Results and Discussion}
+
+
+\section*{Conclusion}
+
+\renewcommand\refname{Bibliography}
+	\bibliographystyle{unsrt}
+	\bibliography{References.bib} 
+\section*{Literature}
+(1): http://www.elveflow.com/microfluidic-tutorials/microfluidic-reviews-and-tutorials/generate-droplets-in-microfluidic-capillary/
+\section*{Appendix}
+
+
+\end{document}
